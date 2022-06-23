@@ -144,22 +144,26 @@
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-1">
                 <div class="u-container-layout u-valign-top u-container-layout-1">
                   <div class="u-form u-form-1">
-                    <form action="https://formsubmit.co/el/howizo" method="POST">
+                    <form action="https://formsubmit.co/el/howizo" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form">
                       <div class="u-form-email u-form-group u-form-partition-factor-2 u-form-group-1">
                         <label for="email-b04a" class="u-form-control-hidden u-label">Email</label>
-                        <input name="email" type="email" placeholder="Enter a valid email address" id="email-b04a" class="u-input u-input-rectangle u-white u-input-1">
+                        <input type="email" placeholder="Enter a valid email address" id="email-b04a" name="email" class="u-input u-input-rectangle u-white u-input-1" required="">
                       </div>
                       <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-2">
                         <label for="name-b04a" class="u-form-control-hidden u-label">Name</label>
-                        <input name="name" type="text" placeholder="Enter your Name" id="name-b04a" class="u-input u-input-rectangle u-white u-input-2">
+                        <input type="text" placeholder="Enter your Name" id="name-b04a" name="name" class="u-input u-input-rectangle u-white u-input-2" required="">
+                      </div>
+                      <div class="u-form-address u-form-group u-form-partition-factor-2 u-form-group-3">
+                        <label for="address-920c" class="u-form-control-hidden u-label">Address</label>
+                        <input type="text" placeholder="Enter your address" id="address-920c" name="address" class="u-input u-input-rectangle u-white u-input-3" required="">
                       </div>
                       <div class="u-form-group u-form-partition-factor-2 u-form-phone u-form-group-4">
                         <label for="phone-6f45" class="u-form-control-hidden u-label">Phone</label>
-                        <input name="phone" type="tel" pattern="\+?\d{0,2}[\s\(\-]?([0-9]{3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})" placeholder="Enter your phone (e.g. +14155552675)" id="phone-6f45" class="u-input u-input-rectangle u-white u-input-4">
+                        <input type="tel" pattern="\+?\d{0,2}[\s\(\-]?([0-9]{3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})" placeholder="Enter your phone (e.g. +14155552675)" id="phone-6f45" name="phone" class="u-input u-input-rectangle u-white u-input-4" required="">
                       </div>
                       <div class="u-form-group u-form-message u-form-group-5">
                         <label for="message-b04a" class="u-form-control-hidden u-label">Message</label>
-                        <textarea name="message" placeholder="Enter your message" rows="4" cols="50" id="message-b04a" class="u-input u-input-rectangle u-white u-input-5"></textarea>
+                        <textarea placeholder="Enter your message" rows="4" cols="50" id="message-b04a" name="message" class="u-input u-input-rectangle u-white u-input-5" required=""></textarea>
                       </div>
                       <div class="u-align-left u-form-group u-form-submit u-form-group-6">
                         <button type="submit" class="u-btn u-btn-submit u-button-style u-palette-1-base u-btn-1"> إرسال</button>
